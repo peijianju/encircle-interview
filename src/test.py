@@ -25,6 +25,7 @@ class Test_sExpressionCalculator(unittest.TestCase):
     self.assertRaises(Exception, evalExpression, "(3)")
     self.assertEqual(evalExpression("(add 1 2)"), 3)
     self.assertEqual(evalExpression("(multiply (add 1 2) (multiply 2 3) 9)"), 162)
+    self.assertEqual(evalExpression("( add 1 123 (add 1 2) 2 )"), 129)
 
   def test_add(self):
     self.assertEqual(add("1"),1)
