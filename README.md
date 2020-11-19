@@ -1,5 +1,6 @@
 # Requirements
-Need `python 3.8+` to run
+Need `python 3.8.5+` to run
+Developed based on `python 3.8.5`
 
 # How to run
 
